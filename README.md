@@ -11,7 +11,7 @@ using Salesforce Batch Apex.
 
 ## Author
 Iqra Masood
-Salesforce Administrator & Developer
+- Salesforce Administrator & Developer
 
 ## How to Run
 ```apex
