@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Property</label>
+    <pluralLabel>Properties</pluralLabel>
+    <nameField>
+        <label>Property Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    
+    <!-- Fields -->
+    <fields>
+        <fullName>City__c</fullName>
+        <label>City</label>
+        <type>Text</type>
+        <length>100</length>
+    </fields>
+    <fields>
+        <fullName>Address__c</fullName>
+        <label>Address</label>
+        <type>Text</type>
+        <length>255</length>
+    </fields>
+    <fields>
+        <fullName>Avg_Desk_Price__c</fullName>
+        <label>Average Desk Price</label>
+        <type>Currency</type>
+        <precision>18</precision>
+        <scale>2</scale>
+    </fields>
+    <fields>
+        <fullName>Pricing_Source__c</fullName>
+        <label>Pricing Source</label>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>System Calculated</fullName>
+                    <default>true</default>
+                    <label>System Calculated</label>
+                </value>
+                <value>
+                    <fullName>Manual Entry</fullName>
+                    <label>Manual Entry</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
