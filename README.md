@@ -9,10 +9,10 @@ using Salesforce Batch Apex.
 - Isolated pricing logic
 - Fully test-covered
 
-## How to Run
-```apex
-Database.executeBatch(new PropertyPricingBatch(), 200);
-
 ## Author
 Iqra Masood
 Salesforce Administrator & Developer
+
+## How to Run
+```apex
+Database.executeBatch(new PropertyPricingBatch(), 200)
