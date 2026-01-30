@@ -10,8 +10,7 @@ using Salesforce Batch Apex.
 - Fully test-covered
 
 ## Author
-Iqra Masood
-- Salesforce Administrator & Developer
+Iqra Masood - Salesforce Administrator & Developer
 
 ## How to Run
 ```apex
