@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Batch Apex Job] --> B[PricingService]
     B --> C[PricingCalculator]
